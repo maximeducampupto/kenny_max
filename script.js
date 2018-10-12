@@ -89,6 +89,9 @@ document.addEventListener('keydown', function(e) {
             break;
         case 40:
             moveDown();
+            break;
+        default:
+            e.preventDefault();
     }
 
 });
